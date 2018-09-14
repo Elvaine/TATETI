@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 70%;
+	margin: 0 auto;
+	background-color: lightgray;
+}
+
+#container {
+	box-sizing: border-box;
+	width: 50%;
+	margin: 0 auto;
+	background-color: red;
+}
+
+.block {
+	width: 33.3%;
+	box-sizing: border-box;
+	padding: 2%;
+	float: left;
+}
+
+.block img {
+	width: 100%;
+	display: block;
+	border-radius: 5%;
+}
